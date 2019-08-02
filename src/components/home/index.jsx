@@ -30,6 +30,7 @@ const Home = () => {
         </Card>
       </div>
       <a>Teste</a>
+      <div className='spanVermelho'>Aqui vai o texto</div>
     </Fragment>
   )
 }

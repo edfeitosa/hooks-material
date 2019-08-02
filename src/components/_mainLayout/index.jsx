@@ -12,12 +12,12 @@ import Menu from '../menu';
 import Routes from '../../routes';
 
 const MainLayout = () => {
-  const classes = useStyles();
+  useStyles();
   return (
     <Grid container>
       <BrowserRouter>
         <Header />
-        <div className={classes.content}>
+        <div className='content'>
           { /* <Grid item xs={2}>
               <Menu />
             </Grid> */ }

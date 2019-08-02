@@ -2,7 +2,6 @@ import { createMuiTheme } from '@material-ui/core';
 import {
   green,
   grey,
-  red,
   amber
 } from '@material-ui/core/colors';
 
@@ -30,11 +29,6 @@ const theme = createMuiTheme({
     },
     h6: {
       color: '#fff'
-    }
-  },
-  '@global': {
-    'a': {
-      'color': '#f00'
     }
   }
 });
