@@ -31,6 +31,11 @@ const theme = createMuiTheme({
     h6: {
       color: '#fff'
     }
+  },
+  '@global': {
+    'a': {
+      'color': '#f00'
+    }
   }
 });
 
