@@ -1,17 +1,20 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import {
   AppBar,
-  Toolbar,
-  Typography
+  Toolbar
 } from '@material-ui/core';
 
+import style from './style';
+
+const useStyles = makeStyles(style);
+
 const Header = () => {
+  const classes = useStyles();
   return (
     <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6">
-          Minha Aplicação com Material
-        </Typography>
+      <Toolbar className={classes.header}>
+        <h6>Bonuz Alliances UI</h6>
       </Toolbar>
     </AppBar>
   )

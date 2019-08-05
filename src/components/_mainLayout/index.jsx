@@ -18,10 +18,10 @@ const MainLayout = () => {
       <BrowserRouter>
         <Header />
         <div className='content'>
-          { /* <Grid item xs={2}>
-              <Menu />
-            </Grid> */ }
-          <Grid item xs={12}>
+          <Grid item xs={2}>
+            <Menu />
+          </Grid>
+          <Grid item xs={10}>
             <Routes />
           </Grid>
         </div>

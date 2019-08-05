@@ -1,34 +1,21 @@
 import { createMuiTheme } from '@material-ui/core';
-import {
-  green,
-  grey,
-  amber
-} from '@material-ui/core/colors';
 
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: green['A700']
+      main: '#33b310'
     },
     secondary: {
-      main: amber[500]
-    }
-  },
-  spacing: 10,
-  typography: {
-    h1: {
-      color: grey[600],
-      fontSize: '2rem',
-      fontWeight: 500,
-      margin: '30px 0px'
+      main: '#ff5f0a'
     },
-    h2: {
-      fontSize: '1.5rem',
-      color: grey[400],
-      margin: '30px 0px'
+    text: {
+      main: '#616161',
+      h1: '#858e94',
+      h2: '#9ca7ad'
     },
-    h6: {
-      color: '#fff'
+    error: {
+      main: '#f00',
+      contrastText: '#fff'
     }
   }
 });
